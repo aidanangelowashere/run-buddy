@@ -65,7 +65,7 @@ section {
   padding: 60px;
 }
 .hero {
-  background-image: url("../hero.jpg");
+  background-image: url("../images/hero.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
