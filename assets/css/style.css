@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
   }
-  header {
+/* adding flexbox to configure for differing sizes, justify content to space out 
+Run Buddy and list elements and wrap to account for zooming and adjusting screen sizes */
+header {
   padding: 20px 35px;
   background-color: #39a6b2;
   display: flex;
@@ -30,16 +32,23 @@ ul {
 header nav {
   margin: 7px 0;
 }
-header nav ul li {
-  display: inline;
+/*change to flex, wrap content, spacebetween,list style=none in order to get rid of bullets
+align items center to adjust on y axis and center with header h1 */
+header nav ul  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+  list-style: none;
 }
+/*adjusted font size to 1.55vw (viewport width) so that font will always 
+be 1.55% of windows width to account for differing display sizes */
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 1.55vw;
 }
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
   }
