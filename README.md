@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# git Run Buddy Inc.
-=======
 # Run Buddy, Inc
->>>>>>> 3ae152fbf36a882f720e540eee9dce66104a0475
 
 ## Purpose
 A website that offers fitness training services. 
